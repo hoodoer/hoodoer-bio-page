@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew Kirkpatrick | Security Researcher</title>
+    <link rel="icon" type="image/png" href="https://github.com/hoodoer.png">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header id="header">
+                <!-- Profile content will be injected here -->
+            </header>
+    
+            <main id="content">
+                <!-- Sections will be injected here -->
+            </main>
+            <main id="content-2">
+                <!-- Sections will be injected here -->
+            </main>
+        </div>
+    
+        <footer>
+            <p>&copy; <span id="year"></span> Drew Kirkpatrick. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Fetch and Render Data
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    renderHeader(data.profile);
+                    renderSections(data.sections);
+                })
+                .catch(error => console.error('Error loading data:', error));
+    
+        function renderHeader(profile) {
+            const headerHTML = `
+                <img src="${profile.avatar}" alt="${profile.name}" class="avatar">
+                <h1>${profile.name}</h1>
+                <p class="subtitle">
+                    ${profile.title}
+                    ${profile.company ? ` &mdash; <a href="${profile.company.url}" target="_blank">${profile.company.name}</a>` : ''}
+                </p>
+                <p class="bio">${profile.bio}</p>
+                <div class="socials">
+                    ${profile.socials.map(s => `<a href="${s.url}" target="_blank">${s.name}</a>`).join('')}
+                </div>
+            `;
+            document.getElementById('header').innerHTML = headerHTML;
+        }
+    
+                            function renderSections(sections) {
+    
+                                const contentDiv1 = document.getElementById('content');
+    
+                                const contentDiv2 = document.getElementById('content-2');
+    
+                                
+    
+                                                sections.forEach(section => {
+    
+                                
+    
+                                                    if (section.id === 'projects') return; // Skip rendering 'Research & Code' section
+    
+                                
+    
+                                                    let itemsHTML = '';
+    
+                                    
+    
+                                    // Choose layout based on type (grid vs list)
+    
+                                    if (section.type === 'grid') {
+    
+                                        itemsHTML = `<div class="grid-container">
+    
+                                            ${section.items.slice().reverse().map(item => `
+    
+                                                <a href="${item.link}" class="card" target="_blank">
+    
+                                                    <h3>${item.title}</h3>
+    
+                                                    <p>${item.desc}</p>
+    
+                                                </a>
+    
+                                            `).join('')}
+    
+                                        </div>`;
+    
+                                    } else {
+    
+                                        itemsHTML = `<div class="list-container">
+    
+                                            ${section.items.slice().reverse().map(item => `
+    
+                                                <div class="list-item">
+    
+                                                    <a href="${item.link}" target="_blank"><strong>${item.title}</strong></a>
+    
+                                                    <span>${item.desc}</span>
+    
+                                                </div>
+    
+                                            `).join('')}
+    
+                                        </div>`;
+    
+                                    }
+    
+                    
+    
+                                    const sectionHTML = `
+    
+                                        <section class="section">
+    
+                                            <h2>${section.title}</h2>
+    
+                                            ${itemsHTML}
+    
+                                        </section>
+    
+                                    `;
+    
+                    
+    
+                                                    // Distribute sections into columns
+    
+                    
+    
+                                                    if (section.id === 'blogs') {
+    
+                    
+    
+                                                        contentDiv1.insertAdjacentHTML('beforeend', sectionHTML);
+    
+                    
+    
+                                                    } else {
+    
+                    
+    
+                                                        contentDiv2.insertAdjacentHTML('beforeend', sectionHTML);
+    
+                    
+    
+                                                    }
+    
+                                });
+    
+                            }        </script>
+    </body>
+    </html>
+    

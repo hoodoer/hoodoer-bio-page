@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "name": "Drew Kirkpatrick",
+    "title": "Principal Security Consultant & Researcher",
+    "company": { "name": "TrustedSec", "url": "https://www.trustedsec.com" },
+    "bio": "Specializing in Application Pentesting, AI Red Teaming, and Offensive Tool Development.",
+    "avatar": "https://github.com/hoodoer.png",
+    "socials": [
+      { "name": "GitHub", "url": "https://github.com/hoodoer" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/drew-kirkpatrick-1009a0/" },
+      { "name": "Twitter", "url": "https://twitter.com/hoodoer" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "blogs",
+      "title": "Blogs",
+      "type": "list",
+      "items": [
+        {
+          "title": "Persisting XSS With IFrame Traps",
+          "desc": "Trapping users in an iframe to extend XSS payload execution, a technique to fake login pages and capture credentials, demonstrated with a proof-of-concept.",
+          "link": "https://trustedsec.com/blog/persisting-xss-with-iframe-traps"
+        },
+        {
+          "title": "Scraping Login Credentials With XSS",
+          "desc": "Unauthenticated JavaScript Fun: Learn how to exploit XSS vulnerabilities to frame a target site, scrape credentials, and exfiltrate data using a reflected XSS…",
+          "link": "https://trustedsec.com/blog/scraping-login-credentials-with-xss"
+        },
+        {
+          "title": "Looting iOS App's Cache.db",
+          "desc": "Extracting sensitive data from an iOS device's Cache.db file can be a challenging task, but it's not impossible with the right tools.",
+          "link": "https://trustedsec.com/blog/looting-ios-apps-cache-db"
+        },
+        {
+          "title": "Chaining Vulnerabilities to Exploit POST Based Reflected XSS",
+          "desc": "Learn how to chain reflected POST based XSS vulnerabilities with Method Tampering, Cross-Site Request Forgery (CSRF), and Spoofed JSON, and practice exploiting…",
+          "link": "https://trustedsec.com/blog/chaining-vulnerabilities-to-exploit-post-based-reflected-xss"
+        },
+        {
+          "title": "JS-Tap: Weaponizing JavaScript for Red Teams",
+          "desc": "Red teamers can use JS-Tap to collect user inputs, screenshots, and network data from web applications without prior knowledge, simplifying red teaming and…",
+          "link": "https://trustedsec.com/blog/js-tap-weaponizing-javascript-for-red-teams"
+        },
+        {
+          "title": "Clickjacking: Not Just for the Clicks",
+          "desc": "You can trick users into 'typing' inputs in a clickjacking attack.",
+          "link": "https://trustedsec.com/blog/clickjacking-not-just-for-the-clicks"
+        },
+        {
+          "title": "ProxyHelper2: The Sequel",
+          "desc": "ProxyHelper2 for Mark VII Pineapples allows device traffic to be forcibly routed into Burp Suite Proxy, intercepting traffic for mobile applications.",
+          "link": "https://trustedsec.com/blog/proxyhelper2-the-sequel"
+        },
+        {
+          "title": "Content Security Policy: Mitigating Web Vulnerabilities by Controlling the Rules of the Game",
+          "desc": "Defining a Content Security Policy (CSP) for your web application can significantly harden it against XSS attacks, packet sniffing, and clickjacking, while…",
+          "link": "https://trustedsec.com/blog/content-security-policy-mitigating-web-vulnerabilities-by-controlling-the-rules-of-the-game"
+        },
+        {
+          "title": "JS-Tap Mark II: Now with C2 Shenanigans",
+          "desc": "JS-Tap 2.0 offers a custom payload C2 system, allowing users to execute custom JavaScript payloads on clients, with features like autorun, repeat payload, and…",
+          "link": "https://trustedsec.com/blog/js-tap-mark-ii-now-with-c2-shenanigans"
+        },
+        {
+          "title": "Application Layer Encryption with Web Crypto API",
+          "desc": "Demonstration on how to use Web Crypto API to do application layer encryption.",
+          "link": "https://trustedsec.com/blog/application-layer-encryption-with-web-crypto-api"
+        },
+        {
+          "title": "Dragging Secrets Out of Chrome: NTLM Hash Leaks via File URLs",
+          "desc": "Drag a file, leak a hash. Learn how Chrome’s drag-and-drop API lets web apps initiate complex actions and capture a Windows hash.",
+          "link": "https://trustedsec.com/blog/dragging-secrets-out-of-chrome-ntlm-hash-leaks-via-file-urls"
+        },
+        {
+          "title": "Colonel Clustered: Finding Outliers in Burp Intruder",
+          "desc": "Burp Suite pluging that uses clustering algorithms to group Intruder results based on content.",
+          "link": "https://trustedsec.com/blog/colonel-clustered-finding-outliers-in-burp-intruder"
+        }
+      ]
+},
+{
+  "id": "talks",
+  "title": "Talks & Workshops",
+  "type": "list",
+  "items": [
+    {
+      "title": "ENNEoS: Evolutionary Neural Network Encoder of Shenanigans (CackalackyCon 2019",
+      "desc": "This proof of concept program is to explore the use of neuroevolution as a method for encoding shellcode. The encoder uses genetic algorithms to evolve a neural network that will output the desired shellcode at runtime.",
+      "link": "https://youtu.be/nTb6SBGaLR8"
+    },
+    {
+      "title": "JS-Tap: Weaponizing JavaScript for Red Teams (WWHF 2023)",
+      "desc": "Public release and demonstration of JS-Tap for next-gen web attacks.",
+      "link": "https://www.youtube.com/watch?v=TF_tpnMafEs"
+    },
+    {
+      "title": "Attacking Web Applications With JS-Tap (ShmooCon 2024)",
+      "desc": "Demonstrating reconnaissance capabilities of JS-Tap.",
+      "link": "https://youtu.be/IDLMMiqV6ss?si=XunvnVarqSIjx_x0&t=19814"
+    },
+    {
+      "title": "JS-Tap Mark II: Weaponized JavaScript for Red Teams (HackSpaceCon 2024)",
+      "desc": "Demonstrating advanced JavaScript techniques for web reconnaissance and exploitation.",
+      "link": "https://youtu.be/aWvNLJnqObQ?t=11719"
+    },
+    {
+      "title": "JS-Tap Mark II: Attacking Web Apps With Even More Red Team Shenanigans (CactusCon 2025)",
+      "desc": "Demonstrating advanced JavaScript techniques for web reconnaissance and exploitation, including automated custom payload generation.",
+      "link": "https://youtu.be/O7-zxAmP13o?si=gchYwOJksutCCUPH"
+    }
+  ]
+},
+{
+  "id": "publications",
+  "title": "Papers & Patents",
+  "type": "list",
+  "items": [
+    {
+     "title": "Cyber Operator Perspectives on Security Visualization",
+     "desc": "Published in Advances in Human Factors in Cybersecurity (Advances in Intelligent Systems and Computing, vol. 501), D.Nicholson, Ed. Cham: Springer, 2016, pp. 104–119, doi: 10.1007/978-3-319-41932-9_7.",
+     "link": "https://link.springer.com/chapter/10.1007/978-3-319-41932-9_7"
+   },
+   {
+     "title": "Mixed method approach to identify analytic questions to be visualized for military cyber incident handlers",
+     "desc": "Published in 2016 IEEE Symposium on Visualization for Cyber Security (VizSec), Baltimore, MD, USA, 2016, pp. 1–8, doi:10.1109/VIZSEC.2016.7739578.",
+     "link": "https://ieeexplore.ieee.org/document/7739578"
+   },
+   {
+    "title": "Global visualization process for personal computer platforms (GVP+)",
+    "desc": "U.S. Patent 7,564,455, July 21, 2009. (Inventors: W. P. Gatewood, Jr., I. A. Ford, B. M. Vandrovec, D. G. Mielcarek, andD. A. Kirkpatrick)",
+    "link": "https://patents.google.com/patent/US7564455"
+  }      
+]
+}
+]
+}
