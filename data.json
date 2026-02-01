@@ -112,6 +112,37 @@
   ]
 },
 {
+  "id": "references",
+  "title": "Additional Conference Talks",
+  "type": "list",
+  "items": [
+    {
+      "title": "BSides Rochester",
+      "desc": "2018"
+    },    
+    {
+      "title": "HackMiami",
+      "desc": "2019"
+    },
+    {
+      "title": "SecTalks Hobart",
+      "desc": "2019"
+    },
+    {
+      "title": "BSides Roanoke",
+      "desc": "2021"
+    },
+    {
+      "title": "CackalackyCon",
+      "desc": "2024"
+    },
+    {
+      "title": "SecTalks Hobart",
+      "desc": "2024"
+    }
+  ]
+},
+{
   "id": "publications",
   "title": "Papers & Patents",
   "type": "list",
