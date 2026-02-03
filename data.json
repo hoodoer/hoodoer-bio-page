@@ -74,8 +74,13 @@
         },
         {
           "title": "Colonel Clustered: Finding Outliers in Burp Intruder",
-          "desc": "Burp Suite pluging that uses clustering algorithms to group Intruder results based on content.",
+          "desc": "Burp Suite extension that uses clustering algorithms to group Intruder results based on content.",
           "link": "https://trustedsec.com/blog/colonel-clustered-finding-outliers-in-burp-intruder"
+        },
+        {
+          "title": "MCP in Burp Suite: From Enumeration to Targeted Exploitation",
+          "desc": "Burp Suite extention that adds MCP detection, enumeration, and integration to Burp tools.",
+          "link": "https://trustedsec.com/blog/mcp-in-burp-suite-from-enumeration-to-targeted-exploitation"
         }
       ]
 },
