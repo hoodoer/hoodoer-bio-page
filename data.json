@@ -18,6 +18,41 @@
       "type": "list",
       "items": [
         {
+          "title": "On the possibility of obfuscating code using neural networks",
+          "desc": "Discussion on a proof-of-concept shellcode encoder using genetic algorithms and neural networks.",
+          "link": "https://trustedsec.com/blog/on-the-possibility-of-obfuscating-code-using-neural-networks"
+        },
+        {
+          "title": "Tricks for Weaponizing XSS",
+          "desc": "Why pop alert boxes when you can pop shells?",
+          "link": "https://trustedsec.com/blog/tricks-for-weaponizing-xss"
+        },
+        {
+          "title": "Setting the ‘Referer’ Header Using JavaScript",
+          "desc": "Once upon a time I stated XSS can't change the Referer header. I was wrong.",
+          "link": "https://trustedsec.com/blog/setting-the-referer-header-using-javascript"
+        },
+        {
+          "title": "Simple Data Exfiltration Through XSS",
+          "desc": "Example on how to exfiltrate data with an XSS vulnerability using base64 chunks.",
+          "link": "https://trustedsec.com/blog/simple-data-exfiltration-through-xss"
+        },
+        {
+          "title": "Persistence Through Service Workers—Part 1: Introduction and Target Application Setup",
+          "desc": "Introduction to the excellent Shadow Workers project.",
+          "link": "https://trustedsec.com/blog/persistence-through-service-workers-part-1-introduction-and-target-application-setup"
+        },
+        {
+          "title": "Persistence Through Service Workers—Part 2: C2 Setup and Use",
+          "desc": "Continuing the demonstration of Shadow Workers with setup instructions.",
+          "link": "https://trustedsec.com/blog/persistence-through-service-workers-part-2-c2-setup-and-use"
+        },
+        {
+          "title": "Persistence Through Service Workers-Part 3: Easy JavaScript Payload Deployment",
+          "desc": "Continuing the demonstration of Shadow Workers with payload deployment.",
+          "link": "https://trustedsec.com/blog/persistence-through-service-workers-part-3-easy-javascript-payload-deployment"
+        },
+        {
           "title": "Persisting XSS With IFrame Traps",
           "desc": "Trapping users in an iframe to extend XSS payload execution, a technique to fake login pages and capture credentials, demonstrated with a proof-of-concept.",
           "link": "https://trustedsec.com/blog/persisting-xss-with-iframe-traps"
