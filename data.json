@@ -116,7 +116,13 @@
           "title": "MCP in Burp Suite: From Enumeration to Targeted Exploitation",
           "desc": "Burp Suite extention that adds MCP detection, enumeration, and integration to Burp tools.",
           "link": "https://trustedsec.com/blog/mcp-in-burp-suite-from-enumeration-to-targeted-exploitation"
+        },
+        {
+          "title": "JS-Tap v3: Endpoint Post-Exploitation With JavaScript Implants",
+          "desc": "JS-Tap v3 expands JavaScript post-exploitation beyond DOM injection with three new beacon types (browser extensions, Electron app patching, and Node.js preload hooks), turning any JavaScript runtime on the endpoint into a C2 channel.",
+          "link": "https://trustedsec.com/blog/js-tap-v3-endpoint-post-exploitation-with-javascript-implants"
         }
+
       ]
 },
 {
