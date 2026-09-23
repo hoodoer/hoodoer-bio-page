@@ -131,27 +131,32 @@
   "type": "list",
   "items": [
     {
-      "title": "ENNEoS: Evolutionary Neural Network Encoder of Shenanigans (CackalackyCon 2019)",
+      "title": "ENNEoS: Evolutionary Neural Network Encoder of Shenanigans",
+      "conference": "CackalackyCon 2019",
       "desc": "This proof of concept program is to explore the use of neuroevolution as a method for encoding shellcode. The encoder uses genetic algorithms to evolve a neural network that will output the desired shellcode at runtime.",
       "link": "https://youtu.be/nTb6SBGaLR8"
     },
     {
-      "title": "JS-Tap: Weaponizing JavaScript for Red Teams (WWHF 2023)",
+      "title": "JS-Tap: Weaponizing JavaScript for Red Teams",
+      "conference": "WWHF 2023",
       "desc": "Public release and demonstration of JS-Tap for next-gen web attacks.",
       "link": "https://www.youtube.com/watch?v=TF_tpnMafEs"
     },
     {
-      "title": "Attacking Web Applications With JS-Tap (ShmooCon 2024)",
+      "title": "Attacking Web Applications With JS-Tap",
+      "conference": "ShmooCon 2024",
       "desc": "Demonstrating reconnaissance capabilities of JS-Tap.",
       "link": "https://youtu.be/IDLMMiqV6ss?si=XunvnVarqSIjx_x0&t=19814"
     },
     {
-      "title": "JS-Tap Mark II: Weaponized JavaScript for Red Teams (HackSpaceCon 2024)",
+      "title": "JS-Tap Mark II: Weaponized JavaScript for Red Teams",
+      "conference": "HackSpaceCon 2024",
       "desc": "Demonstrating advanced JavaScript techniques for web reconnaissance and exploitation.",
       "link": "https://youtu.be/aWvNLJnqObQ?t=11719"
     },
     {
-      "title": "JS-Tap Mark II: Attacking Web Apps With Even More Red Team Shenanigans (CactusCon 2025)",
+      "title": "JS-Tap Mark II: Attacking Web Apps With Even More Red Team Shenanigans",
+      "conference": "CactusCon 2025",
       "desc": "Demonstrating advanced JavaScript techniques for web reconnaissance and exploitation, including automated custom payload generation.",
       "link": "https://youtu.be/O7-zxAmP13o?si=gchYwOJksutCCUPH"
     }
