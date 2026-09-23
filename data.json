@@ -127,7 +127,7 @@
 },
 {
   "id": "talks",
-  "title": "Talks",
+  "title": "Recorded Talks",
   "type": "list",
   "items": [
     {
@@ -159,7 +159,7 @@
 },
 {
   "id": "references",
-  "title": "Unrecorded Conference Talks",
+  "title": "Unrecorded Talks",
   "type": "list",
   "items": [
     {
@@ -202,6 +202,11 @@
   "title": "Papers & Patents",
   "type": "list",
   "items": [
+  {
+    "title": "Novelty Search in Competitive Coevolution Using Normalized Compression Distance",
+    "desc": "Master's thesis, Florida Institute of Technology, Melbourne, FL, 2012.",
+    "link": "https://github.com/hoodoer/NEAT_Thesis/blob/master/Thesis-%20Master%20Document.pdf"
+  },
     {
      "title": "Cyber Operator Perspectives on Security Visualization",
      "desc": "Published in Advances in Human Factors in Cybersecurity (Advances in Intelligent Systems and Computing, vol. 501), D.Nicholson, Ed. Cham: Springer, 2016, pp. 104–119, doi: 10.1007/978-3-319-41932-9_7.",
